@@ -5,7 +5,7 @@ FROM jupyter/pyspark-notebook
 COPY MetObjects.csv .
 
 #copy notebook
-COPY xgeeks_MET_notebook.ipynb .
+COPY MET_notebook.ipynb .
 
 
  
